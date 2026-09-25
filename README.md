@@ -31,6 +31,7 @@ Created by: Aviwe Memani
 WEDE5020w
 # Part 2 - CSS Styling and Responsive Design
 This part of the project focuses on improving the Sweet Treats Bakery website using CSS and responsive design. I added an external CSS file and used it to style the different pages.
+
 The changes I made include:
 - Added an external style.css file.
 - Added colour scheme and fonts.
@@ -53,7 +54,7 @@ I tested the website at different screen sizes:
 I checked the layout, images, navigation and enquiry form at the different sizes.
 # Change Log
 - 17 September 2026: Added the external style.css file, to style the website pages.
-- 17 September 2026: Added base CSS and typography; to make the website look more consistent.
+- 17 September 2026: Added base CSS and typography, to make the website look more consistent.
 - 18 September 2026: Added CSS Grid to the homepage, to improve the page layout.
 - 19 September 2026: Added borders, shadows and hover effects, to improve the appearance of the website.
 - 20 September 2026: Added contact and location details, to give users more information about the bakery.
