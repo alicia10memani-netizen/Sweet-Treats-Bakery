@@ -62,3 +62,5 @@ I checked the layout, images, navigation and enquiry form at the different sizes
 - 22 September 2026: Added tablet and mobile media queries, to make the website responsive.
 - 22 September 2026: Added relative units and responsive image settings, to make the website work better on different screen sizes.
 - 25 September 2026: Tested the website on desktop, tablet and mobile, to check that the website works on different screen sizes.
+# References
+W3Schools (n.d) W3Schools Online Web Tutorials. (online). Available at: <https://www.w3schools.com/css/default.asp> (Accessed: 25 September 2026).
