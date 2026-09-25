@@ -49,14 +49,15 @@ I tested the website at different screen sizes:
 - Desktop
 - Tablet
 - Mobile
+
 I checked the layout, images, navigation and enquiry form at the different sizes.
 # Change Log
-- 17 September: Added the external style.css file, to style the website pages.
-- 17 September: Added base CSS and typography; to make the website look more consistent.
-- 18 September: Added CSS Grid to the homepage, to improve the page layout.
-- 19 September: Added borders, shadows and hover effects, to improve the appearance of the website.
-- 20 September: Added contact and location details, to give users more information about the bakery.
-- 20 September: Improved the enquiry form, to make the form clearer and easy to use.
-- 22 September: Added tablet and mobile media queries, to make the website responsive.
-- 22 September: Added relative units and responsive image settings, to make the website work better on different screen sizes.
-- 25 September: Tested the website on desktop, tablet and mobile, to check that the website works on different screen sizes.
+- 17 September 2026: Added the external style.css file, to style the website pages.
+- 17 September 2026: Added base CSS and typography; to make the website look more consistent.
+- 18 September 2026: Added CSS Grid to the homepage, to improve the page layout.
+- 19 September 2026: Added borders, shadows and hover effects, to improve the appearance of the website.
+- 20 September 2026: Added contact and location details, to give users more information about the bakery.
+- 20 September 2026: Improved the enquiry form, to make the form clearer and easy to use.
+- 22 September 2026: Added tablet and mobile media queries, to make the website responsive.
+- 22 September 2026: Added relative units and responsive image settings, to make the website work better on different screen sizes.
+- 25 September 2026: Tested the website on desktop, tablet and mobile, to check that the website works on different screen sizes.
