@@ -2,7 +2,9 @@
 <html>
 
 <head>
+	<meta name= "viewport" content= "width=device-width, initial-scale= 1.0">
 	<title>Enquiry - Sweet Treats Bakery </title>
+	<link rel= "stylesheet" href= "style.css">
 </head>
 
 <body> 
@@ -30,15 +32,44 @@
 
 		<form>
 
-			<label>Full Name:</label><br>
-			<input type="text">
+			<label for="name">Full Name:</label><br>
+			<input type="text" id="name" name="name">
 
 			<br><br>
 
-			<label>Email Address:</label><br>
-			<input type="email">
+			<label for="email">Email Address:</label><br>
+			<input type="email" id="email" name="email">
 
 			<br><br>
 
-			<label>Phone Number:</label><br>
-			<input type="tel">
+			<label for="phone">Phone Number:</label><br>
+			<input type="tel" id="phone" name="phone">
+
+			<br><br>
+
+			<label for="enquiry">Enquiry Type:</label>
+			<select id="enquiry" name:"enquiry">
+				<option>Custom Cake</option>
+				<option>Cupcakes</option>
+				<option>Catering</option>
+				<option>General Enquiry</option>
+			</select>
+
+			<br><br>
+
+			<label for="date">Event Date:</label>
+			<input type="date" id="date" name="date">
+
+			<br><br>
+
+			<label for="message">Message:</label>
+			<br>
+			<textarea id="message" name="message" rows="5" cols="40"></textarea>
+
+			<br><br>
+
+			<input type="submit" value="Submit Enquiry">
+
+		</form>
+
+	</main>

@@ -1,0 +1,331 @@
+/* CSS Reset */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+/* Base style */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4a2c2a;
+    background-color: #fff8f5;
+}
+
+
+header {
+	background-color: #f4c2c2;
+	text-align: center;
+	padding: 2rem;
+}
+
+
+header h1 {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+
+header p {
+	font-size: 1.1rem;
+}
+
+
+nav {
+    background-color: #6b3e3e;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+
+main { 
+     width: 90%;
+     max-width: 1200px;
+     margin: auto;
+     padding: 2rem 0;
+}
+
+
+h2 {
+   color: #6b3e3e;
+   font-size: 1.8rem;
+   margin-top: 1.5rem;
+   margin-bottom: 0.5rem;
+}
+
+
+p {
+   margin-bottom: 1rem;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+}
+
+nav a {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Desktop Layout */
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.home-main h2 {
+    grid-column: 1;
+}
+
+.home-main img {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+    width: 100%;
+    max-width: 500px;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.home-main h3 {
+    grid-column: 1;
+}
+
+.home-main ul {
+    grid-column: 1;
+    padding-left: 1.5rem;
+}
+
+/* Visual Styling */
+
+.card {
+    border: 1px solid #ead8d5;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+button,
+input [type="submit"] {
+    background-color: #6b3e3e;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"] :hover {
+    background-color: #4a2c2a;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #f4c2c2;
+}
+
+/* Visual Styling */
+
+main img {
+    border: 1px solid #ead8d5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav a:hover {
+    color: #f4c2c2;
+    text-decoration: underline;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid #c9aaa6;
+    border-radius: 5px;
+    padding: 0.6rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #f4c2c2;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #4a2c2a;
+}
+
+/* Enquiry Form */
+
+form {
+    max-width: 600px;
+    margin-top: 1.5rem;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c9aaa6;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #6b3e3e;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a2c2a;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+
+    .home-main {
+        grid-template-columns: 1fr;
+    }
+
+    .home-main img {
+        grid-column: 1;
+        grid-row: auto;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        margin: 0 0.4rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav {
+        padding: 0.8rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    main {
+        width: 90%;
+        padding: 1.5rem 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .home-main {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .home-main img {
+        width: 100%;
+    }
+}
+
+/* Relative Units */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+}
