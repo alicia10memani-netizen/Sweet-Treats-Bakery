@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
-	<title>Services - Sweet Treats Bakery </title>
-	<link rel= "stylesheet" href= "style.css">
+
+	<meta charset="utf-8"/>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+	<title>Services | Sweet Treats Bakery </title>
+
+	<meta content="Browse cakes, cupcakes, cookies and custom order services from Sweet Treats Bakery." name="description"/>
+
+	<meta content="Sweet Treats Bakery, cakes, cupcakes, cookies, custom cakes, Cape Town bakery" name="keywords"/>
+
+	<meta content="Website Part 3" name="author"/>
+
+	<meta name="robots" content="index, follow"/>
+
+	<link href="style.css" rel="stylesheet"/>
+
+	<script defer="" src="script.js">
+
+	</script>
+
 </head>
 
 <body> 
 
-	<header>
+	<a class="skip-link" href="#main-content"> Skip to content </a>
+
+	<header class="site-header">
+
+		<p class="eyebrow"> Freshly Baked With Love </p>
+
 		<h1> Sweet Treats Bakery </h1>
-		<p> Freshly Baked With Love </p>
+
+		<p> Cakes, cupcakes and little moments of hapiness. </p>
+
 	</header>
 
-	<nav>
+	<nav aria-label="Main navigation" class="site-nav">
+
 		<a href= "index.html">Home</a> |
 		<a href="About.html">About</a> |
 		<a href="Services.html">Services</a> |
@@ -22,24 +49,216 @@
 		<a href="Contact Us.html">Contact Us</a>
 	</nav>
 
-	<main>
+	<main class="container" id="main-content">
+
+	    <section class="page-intro">
 
 		<h2>Our Services</h2>
 
-		<p>
-			Sweet Treats Bakery offers a variety of freshly baked products and custom cake services for different occasions.
+		<p> Explore our baked treats. Use the search box to find a product or choose a category to filter the list. </p>
+
+	     </section>
+
+	     <section aria-label="Product search and filters" class="product-tools">
+
+		<label for="product-search"> Serach products </label>
+
+		<input id="product-search" placeholder="Try cake, cupcakes or cookies" type="search"/>
+
+		<label for="product-filter"> Filter by category </label>
+
+		<select id="product-filter">
+
+		   <option value="all"> All products </option>
+
+		   <option value="cakes"> Cakes </option>
+
+		   <option value="cupcakes"> Cupcakes </option>
+
+		   <option value="cookies"> Cookies </option>
+
+		   <option value="services"> Custom services </option>
+
+		</select>
+
+		<p aria-live="polite" class="form-note" id="product-count"> Showing all products. </p>
+
+		</section>
+
+		<section aria-label="Bakery products" class="product-grid" id="product-grid">
+
+		<article class="product-card" data-category="cakes" data-search="cakes birthday wedding celebration custom cake">
+
+		<button aria-label="View cake image larger" class="gallery-image" data-full-image="cakes.webp" data-image-alt="Decorated cakes for celebrations" type="button">
+
+		<img alt="Decorated cakes for birthdays and celebrations" src="cakes.webp"/>
+
+		</button>
+
+		<div class="product-card-body">
+
+		<h3> Cakes </h3>
+
+		<p> Cakes for birthdays, celebrations and special occasions. </p>
+
+		<a href="Enquiry.html"> Ask about cakes </a>
+
+	     </div>
+
+	  </article>
+
+	  <article class="product-card" data-category="cupcakes" data-search="cupcakes sweet treats flavours parties">
+
+		<button aria-label="View cupcake image larger" class="gallery-image" data-full-image="cupcakes.jpg" data-image-alt="Cupcakes with decorative frosting" type="button">
+
+		<img alt="Freshly baked cookies" src="cupcakes.jpg"/>
+
+	      </button>
+
+	      <div class="product-card-body">
+
+		<h3> Cupcakes </h3>
+
+		<p> Small sweet treats with different designs and flavours. </p>
+
+		<a href="Enquiry.html"> Ask about cupcakes </a>
+
+	      </div>
+
+	    </article>
+
+	    <article class="product-card" data-category="cookies" data-search="cookies biscuits chocolate chip baked treats">
+
+	    <button aria-label="View cookie image larger" class="gallery-image" data-full-image="cookies.jpg" data-image-alt="Freshly baked cookies" type="button">
+
+		<img alt="Freshly baked cookies" src="cookies.jpg"/>
+
+	     </button>
+
+	     <div class="product-card-body">
+
+		<h3> Cookies </h3>
+
+		<p> A simple treat to enjoy or share with others. </p>
+
+		<a href="Enquiry.html"> Ask about cookies </a>
+
+	     </div>
+
+	</article>
+
+	    <article class="product-card" data-category="services" data-search="custom cake design birthday wedding catering event">
+
+		<button aria-label="View custom order image larger" class="gallery-image" data-full-image="bakery order form.webp" data-image-alt="Bakery order planning" type="button">
+
+		<img alt="Planning a bakery order" src="bakery order form.webp"/>
+
+		</button>
+
+		<div class="product-card-body">
+
+		<h3> Custom Orders </h3>
+
+		<p> Tell us about your event and the baked goods you need. </p>
+
+		<a href="Enquiry.html"> Plan a custom order </a>
+
+	      </div>
+
+	    </article>
+
+	  </section>
+
+	  <p class="empty-state" hidden="" id="no-products"> No products match your search. Try another word or category. </p>
+
+		<div aria-label="Larger product image" aria-modal="true" class="lightbox" hidden="" id="lightbox" role="dialog">
+
+		<button aria-label="Close image" class="lightbox=close" id="lightbox-close" type="button"> × </button>
+
+		<img alt="" id="lightbox-image" src="cakes.webp"/>
+
+		<p id="lightbox-caption"> 
+
 		</p>
 
-		<h3>Cupcakes</h3>
+	      </div>
 
-		<img src="cupcakes.jpg" alt="Cupcakes" width="500">
+	      <section class="faq-section">
 
-		<p>
-			Customers can choose different designs and flavours.
+		<h2> Ordering questions </h2>
+
+		<div class="accordion">
+
+		   <button aria-expanded="false" class="accordion-trigger"> 
+
+			How do I place an enquiry? 
+
+			<span aria-hidden="true">
+
+			+
+
+			</span>
+
+		     </button>
+
+		     <div class="accordion-panel" hidden="">
+
+			<p> Use our enquiry form and include as much information as you can about the product and date. </p>
+
+			</div>
+
+		       </div>
+
+		       <div class="accordion">
+
+			<button aria-expanded="false" class="accordion-trigger">
+
+				Are prices shown on this website?
+
+				<span aria-hidden="true">
+
+				+
+
+			</span>
+
+		     </button>
+
+		     <div class="accordion-panel" hidden="">
+
+			<p> Prices are not listed here. Please contact the bakery with your requirements to ask about pricing. </p>
+
+			</div>
+
+		      </div>
+
+		   </section>
+
+		</main>
+
+		<footer class="site-footer">
+
+		<p> ©
+
+		<span id="year"> 2026 </span>
+
+			Sweet Treats Bakery. Student website project.
+
 		</p>
 
-		<h3>Cookies</h3>
+		<p>
 
-		<img src="cookies.jpg" alt="Cookies" width="500">
+		    <a href="Enquiry.html"> Ask about an order </a>
 
-		<p> 
+		    ·
+
+		    <a href="Contact Us.html"> Send us a message </a>
+
+		   </p>
+
+		</footer>
+
+	     </body>
+
+	</html>
+
+		

@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-	<meta name= "viewport" content= "width=device-width, initial-scale= 1.0">
-	<title>Contact Us - Sweet Treats Bakery </title>
-	<link rel= "stylesheet" href= "style.css">
+
+	<meta charset="utf-8"/>
+
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+	<title>Contact Us | Sweet Treats Bakery </title>
+
+	<meta content="Contact Sweet Treats Bakery in Cape Town wwith a question, feedback or general message." name="description"/>
+
+	 <meta content="Sweet Treats Bakery, cakes, cupcakes, cookies, custom cakes, Cape Town bakery" name="keywords"/>
+
+  	<meta content="Website Part 3" name="author"/>
+
+ 	 <meta content="index, follow" name="robots"/>
+
+  	<link href="style.css" rel="stylesheet"/>
+
+	<script defer="" src="script.js">
+
+    </script>
+
 </head>
 
 <body> 
 
-	<header>
-		<h1> Sweet Treats Bakery </h1>
-		<p> Freshly Baked With Love </p>
-	</header>
+	<a class="skip-link" href="#main-content"> Skip to content </a>
 
-	<nav>
+  	<header class="site-header">
+
+   	<p class="eyebrow"> Freshly baked with love </p>
+
+   	<h1> Sweet Treats Bakery </h1>
+
+   	<p> Cakes, cupcakes and little moments of happiness. </p>
+
+  </header>
+
+	<nav aria-label="Main navigation" class="site-nav">
+
 		<a href= "index.html">Home</a> |
 		<a href="About.html">About</a> |
 		<a href="Services.html">Services</a> |
@@ -22,30 +49,150 @@
 		<a href="Contact Us.html">Contact Us</a>
 	</nav>
 
-	<main>
+	<main class="container narrow-container" id="main-content">
 
-		<h2>Contact Us<h2>
+	   <section class="page-intro">
+
+		<h2>Contact Sweets Treats Bakery</h2>
 
 		<img src="shop.jpg" alt="Sweet Treats Bakery" width="500">
 
-		<p>
-			We would love to hear from you. You can contact Sweet Treats Bakery using the information below.
-		</p>
+		<p>Send us a general message, question or feedback using the form below. </p>
 
-		<h3>Phone</h3>
+	    </section>
 
-		<p>
-			012 345 6789
-		</p>
+	    <div class="contact-details">
 
-		<h3>Email</h3>
+		<h3> Bakery contact details </h3>
 
 		<p>
-			info@sweettreatsbakery.co.za
+		    <strong> Email: </strong>
+
+		info@sweettreatsbakery.co.za
+
 		</p>
 
-		<h3>Location</h3>
-		<p>Cape Town, Western Cape, South Africa</p>
+		<p>
 
-		<h3>Opening Hours</h3>
-		<p>Monday - Saturday: 08:00 - 17:00</p>
+		    <strong> Phone: </strong>
+
+		  012 345 6789 
+
+		</p>
+
+		<p>
+
+		   <strong> Location </strong>
+
+		Cape Town, Western Cape, South Africa
+
+		</p>
+
+		<p>
+
+		  <strong> Opening hours: </strong>
+
+		Monday to Saturday, 08:00-17:00
+
+		</p>
+
+	    </div>
+
+	    <form class="site-form" data-form-kind="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST" name="general-message">
+
+		<input name="form-name" type="hidden" value="general-message"/>
+
+		<p class="hidden-field">
+
+		<label> Do not fill this in: 
+
+		<input name="bot-field"/>
+
+		</label>
+
+		</p>
+
+		<div class="form-group">
+
+		    <label for="contact-name"> Full name * </label>
+		    <input autocomplete="name" id="contact-name" maxlength="80" minlength="2" name="name" required="" type="text"/>
+
+		</div>
+
+		<div class="form-group">
+
+		    <label for="contact-email"> Email address * </label>
+		    <input autocomplete="email" id="contact-email" name="email" required="" type="email"/>
+
+		</div>
+
+		<div class="form-group">
+
+		   <label for="message-type"> Type of message * </label>
+
+		   <select id="message-type" name="messageType" required="">
+
+		     <option value=""> Choose a message type </option>
+
+			<option> General question </option>
+			<option> Feedback </option>
+			<option> Complaint </option>
+			<option> Compliment </option>
+			<option> Other </option>
+
+		   </select>
+
+		</div>
+
+		<div class="form-group">
+
+		  <label for="contact-message"> Your message * </label>
+		  <textarea id="contact-message" maxlength-"1500" minlength="10" name="message" placeholder="type your message here." required="" rows="6"> </textarea>
+
+		</div>
+
+		<button class="button" type="submit"> Send message </button>
+
+		<p class="form-note"> * Required fields. </p>
+
+		<p aria-live="polite" class="form-status"> </p>
+
+	    </form>
+
+	</main>
+
+	<footer class="site-footer">
+
+   <p>
+
+    ©
+
+    <span id="year">
+
+     2026
+
+    </span>
+
+    Sweet Treats Bakery. Student website project.
+
+   </p>
+
+   <p>
+
+    <a href="inquiry.html">
+
+     Ask about an order
+
+    </a>
+
+    ·
+
+    <a href="content.html"> Send us a message </a>
+
+   </p>
+
+  </footer>
+
+ </body>
+
+</html>
