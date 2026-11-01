@@ -74,12 +74,12 @@ I checked the layout, images, navigation and enquiry form at the different sizes
 - 01 November 2026: Prepared the website for deployment using Netlify.
 
 # References
-W3Schools (n.d) W3Schools Online Web Tutorials. (online). Available at: <https://www.w3schools.com/css/default.asp> (Accessed: 25 September 2026).
-thestacc.com (2026). How to Create an XML Sitemap in 7 Steps (2026 Guide). (online). Available at: <https://thestacc.com/blog/create-xml-sitemap/> (Accessed: 25 October 2026)
-Neil Patel (2026). How to Create a Robots.txt File: A Complete Guide for 2026. (online). Available at: <https://neilpatel.com/blog/robots-txt/> (Accessed: 25 October 2026)
-Google Developers (2025). SEO Starter Guide: The Basics | Google Search Central. (online). Available at: <https://developers.google.com/search/docs/fundamentals/seo-starter-guide> (Accessed: 26 October 2026)
-GeeksForGeeks (2025). Type of CSS (Cascading Style Sheet) - GeeksforGeeks. (online). Available at: <https://www.geeksforgeeks.org/css/types-of-css-cascading-style-sheet/> (Accessed: 31 October 2026)
-GeeksForGeeks (2026). HTML Forms - GeeksforGeeks. (online). Available at: <https://www.geeksforgeeks.org/html/html-forms/> (Accessed: 26 October 2026)
-Abdul Qadir Khan & Manoj Kumar Masini (2025) A detailed guide on JavaScript Web Development - BrowserStack. (online). Available at: <https://www.browserstack.com/guide/javascript-web-development> (Accessed: 31 October 2026)
-GeeksForGeeks (2026) JavaScript Form Validation - GeeksforGeeks. (online). Available at: <https://www.geeksforgeeks.org/javascript/form-validation-using-javascript/> (Accessed: 27 October 2026)
-javascriptroom.com (2026). How to Create an FAQ Section for Any Website Using JavaScript. (online). Available at: <https://www.javascriptroom.com/blog/how-to-create-an-faq-section-to-any-website-using-javascript/> (Accessed: 28 October 2026)
+- W3Schools (n.d) W3Schools Online Web Tutorials. (online). Available at: <https://www.w3schools.com/css/default.asp> (Accessed: 25 September 2026).
+- thestacc.com (2026). How to Create an XML Sitemap in 7 Steps (2026 Guide). (online). Available at: <https://thestacc.com/blog/create-xml-sitemap/> (Accessed: 25 October 2026)
+- Neil Patel (2026). How to Create a Robots.txt File: A Complete Guide for 2026. (online). Available at: <https://neilpatel.com/blog/robots-txt/> (Accessed: 25 October 2026)
+- Google Developers (2025). SEO Starter Guide: The Basics | Google Search Central. (online). Available at: <https://developers.google.com/search/docs/fundamentals/seo-starter-guide> (Accessed: 26 October 2026)
+- GeeksForGeeks (2025). Type of CSS (Cascading Style Sheet) - GeeksforGeeks. (online). Available at: <https://www.geeksforgeeks.org/css/types-of-css-cascading-style-sheet/> (Accessed: 31 October 2026)
+- GeeksForGeeks (2026). HTML Forms - GeeksforGeeks. (online). Available at: <https://www.geeksforgeeks.org/html/html-forms/> (Accessed: 26 October 2026)
+- Abdul Qadir Khan & Manoj Kumar Masini (2025) A detailed guide on JavaScript Web Development - BrowserStack. (online). Available at: <https://www.browserstack.com/guide/javascript-web-development> (Accessed: 31 October 2026)
+- GeeksForGeeks (2026) JavaScript Form Validation - GeeksforGeeks. (online). Available at: <https://www.geeksforgeeks.org/javascript/form-validation-using-javascript/> (Accessed: 27 October 2026)
+- javascriptroom.com (2026). How to Create an FAQ Section for Any Website Using JavaScript. (online). Available at: <https://www.javascriptroom.com/blog/how-to-create-an-faq-section-to-any-website-using-javascript/> (Accessed: 28 October 2026)
